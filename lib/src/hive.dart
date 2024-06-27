@@ -108,7 +108,7 @@ class Hive {
         try {
           return await computation();
         } finally {
-          Hive.closeAllBoxes();
+          // Hive.closeAllBoxes();
         }
       },
       debugName: debugName ?? 'Hive Isolate',
